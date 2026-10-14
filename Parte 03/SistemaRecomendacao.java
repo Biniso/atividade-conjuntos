@@ -87,10 +87,6 @@ public class SistemaRecomendacao {
         return new Afinidade(b, comuns, tamUniao);
     }
 
-    // ------------------------------------------------------------------
-    // Recomendacao
-    // ------------------------------------------------------------------
-
     public List<Afinidade> recomendar(String nome) {
         Usuario alvo = buscar(nome);
         List<Afinidade> ranking = new ArrayList<>();

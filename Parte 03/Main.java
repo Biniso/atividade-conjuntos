@@ -30,9 +30,6 @@ public class Main {
         }
     }
 
-    // ------------------------------------------------------------------
-    // Cenario 1: exemplo da atividade (Ana, Bia e Caio)
-    // ------------------------------------------------------------------
     private static void cenario1ExemploDaAtividade() {
         titulo("CENARIO 1 - Exemplo da atividade (Ana, Bia e Caio)");
 
@@ -61,9 +58,6 @@ public class Main {
         System.out.println();
     }
 
-    // ------------------------------------------------------------------
-    // Cenario 2: casos de borda exigidos pela atividade
-    // ------------------------------------------------------------------
     private static void cenario2CasosDeBorda() {
         titulo("CENARIO 2 - Casos de borda");
 
@@ -97,9 +91,6 @@ public class Main {
         System.out.println();
     }
 
-    // ------------------------------------------------------------------
-    // Cenario 3: exemplo criado pela equipe (rede de estudos)
-    // ------------------------------------------------------------------
     private static void cenario3ExemploProprio() {
         titulo("CENARIO 3 - Exemplo proprio: grupos de estudo da turma");
 
@@ -146,9 +137,6 @@ public class Main {
         System.out.println();
     }
 
-    // ------------------------------------------------------------------
-    // Modo interativo
-    // ------------------------------------------------------------------
     private static void interativo() {
         Scanner in = new Scanner(System.in);
         SistemaRecomendacao sistema = new SistemaRecomendacao();
