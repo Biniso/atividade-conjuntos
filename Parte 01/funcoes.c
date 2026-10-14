@@ -64,6 +64,7 @@ void exibirMenu() {
     printf("[13] Cardinalidade (|A|)\n");
     printf("[14] Cardinalidade (|B|)\n");
     printf("[15] Complemento (Aᶜ)\n");
+    printf("[0] Sair do programa\n");
     printf("\nEscolha uma opção: ");
 }
 

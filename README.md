@@ -30,6 +30,50 @@ atividade-conjuntos/
 └── README.md
 ```
 
+## Como executar o projeto
+
+### Parte 1 — Conjuntos em C
+
+Execute o programa:
+
+```bash
+"./Parte 01/programa"
+```
+
+### Parte 2 — Classificador, Divisores e Primos em Java
+
+Execute o classificador:
+
+```bash
+java -cp "Parte 02/out" TesteClassificador
+```
+
+Execute o programa de divisores:
+
+```bash
+java -cp "Parte 02/out" TesteDivisores
+```
+
+Execute o programa de números primos:
+
+```bash
+java -cp "Parte 02/out" TestePrimos
+```
+
+### Parte 3 — Sistema de Recomendação em Java
+
+Execute o programa principal:
+
+```bash
+java -cp "Parte 03/out" Main
+```
+
+Para iniciar o modo interativo, execute:
+
+```bash
+java -cp "Parte 03/out" Main --interativo
+```
+
 ## Parte 1 — Operações com conjuntos em C
 
 A primeira parte implementa operações entre conjuntos de números inteiros, utilizando arrays e funções.
