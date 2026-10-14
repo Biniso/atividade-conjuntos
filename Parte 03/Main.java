@@ -169,9 +169,6 @@ public class Main {
         }
     }
 
-    // ------------------------------------------------------------------
-    // Utilidades de impressao e conferencia
-    // ------------------------------------------------------------------
     private static void mostrarRanking(SistemaRecomendacao sistema, String nome) {
         System.out.println("Ranking de afinidade para " + sistema.buscar(nome).getNome() + ":");
         int pos = 1;

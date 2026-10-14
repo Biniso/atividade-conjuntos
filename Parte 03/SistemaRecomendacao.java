@@ -9,7 +9,6 @@ import java.util.Set;
 
 public class SistemaRecomendacao {
 
-    /** Resultado de comparar um usuario com outro. */
     public static class Afinidade {
         private final Usuario outro;
         private final int tamIntersecao;
@@ -28,13 +27,11 @@ public class SistemaRecomendacao {
         public int getTamIntersecao()    { return tamIntersecao; }
         public int getTamUniao()         { return tamUniao; }
 
-        /** Indice de Jaccard = |A ∩ B| / |A ∪ B| (0 quando a uniao e vazia). */
         public double getIndice() {
             return tamUniao == 0 ? 0.0 : (double) tamIntersecao / tamUniao;
         }
     }
 
-    // LinkedHashMap mantem a ordem de cadastro; a chave e o nome em minusculas
     private final Map<String, Usuario> usuarios = new LinkedHashMap<>();
 
     public void adicionar(Usuario usuario) {
@@ -53,25 +50,18 @@ public class SistemaRecomendacao {
         return u;
     }
 
-    // ------------------------------------------------------------------
-    // Operacoes de conjuntos
-    // ------------------------------------------------------------------
-
-    /** A ∩ B */
     public static Set<String> intersecao(Set<String> a, Set<String> b) {
         Set<String> resultado = new HashSet<>(a);
         resultado.retainAll(b);
         return resultado;
     }
 
-    /** A ∪ B */
     public static Set<String> uniao(Set<String> a, Set<String> b) {
         Set<String> resultado = new HashSet<>(a);
         resultado.addAll(b);
         return resultado;
     }
 
-    /** Indice de Jaccard entre dois conjuntos. */
     public static double jaccard(Set<String> a, Set<String> b) {
         int uni = uniao(a, b).size();
         if (uni == 0) {
@@ -80,7 +70,6 @@ public class SistemaRecomendacao {
         return (double) intersecao(a, b).size() / uni;
     }
 
-    /** Compara dois usuarios e devolve todos os detalhes do calculo. */
     public static Afinidade comparar(Usuario a, Usuario b) {
         Set<String> comuns = intersecao(a.getInteresses(), b.getInteresses());
         int tamUniao = uniao(a.getInteresses(), b.getInteresses()).size();

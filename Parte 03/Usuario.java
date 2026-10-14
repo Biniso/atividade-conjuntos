@@ -29,7 +29,6 @@ public class Usuario {
         return nome;
     }
 
-    /** Conjunto de interesses (somente leitura). */
     public Set<String> getInteresses() {
         return interesses;
     }
