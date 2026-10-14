@@ -1,4 +1,4 @@
-# Laboratório de Conjuntos
+# Atividade Conjuntos
 
 Projeto acadêmico desenvolvido para aplicar os conceitos da Teoria dos Conjuntos por meio de algoritmos implementados em C e Java.
 
