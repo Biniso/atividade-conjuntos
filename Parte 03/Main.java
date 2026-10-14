@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static int falhas = 0;
+    private static int falhas = 0; 
     private static int conferencias = 0;
 
     public static void main(String[] args) {
