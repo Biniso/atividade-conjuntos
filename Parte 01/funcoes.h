@@ -17,7 +17,7 @@ void propriamenteContidoAB(int conjuntoA[], int qtdA, int conjuntoB[], int qtdB)
 void propriamenteContidoBA(int conjuntoA[], int qtdA, int conjuntoB[], int qtdB);
 void complementoA(int conjuntoA[], int qtdA);
 void cardinalidadeA(int qtdA);
-void cardinalidadeB(int qtdB);
+void cardinalidadeB(int qtdB); 
 void complementoA(int conjuntoA[], int qtdA);
 
 #endif
