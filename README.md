@@ -298,6 +298,6 @@ Além dos cenários apresentados, devem ser considerados os seguintes casos:
 
 O projeto demonstra como conceitos matemáticos podem ser transformados em soluções computacionais. A implementação das operações de conjuntos, a organização em funções e classes e a validação por meio de testes contribuem para o desenvolvimento do raciocínio lógico, da programação e da compreensão prática da Teoria dos Conjuntos.
 
-Equipe: Guilherme Gonçalves e Vinicius Taraborelli
+Equipe: Guilherme Gonçalves da Silva e Vinicius Taraborelli Oliveira
 
 Repositório: https://github.com/Biniso/atividade-conjuntos.git
