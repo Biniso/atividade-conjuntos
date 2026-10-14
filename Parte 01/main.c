@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-int main() { 
+int main() {
 
     int conjuntoA[100], conjuntoB[100];
     int qtdA = 0, qtdB = 0, opcao = 0;
