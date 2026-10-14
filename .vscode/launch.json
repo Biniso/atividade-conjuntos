@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Parte 3 - Modo Interativo",
+            "request": "launch",
+            "mainClass": "Main",
+            "args": "--interativo",
+            "classPaths": [
+                "${workspaceFolder}/Parte 03/out"
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Compilar Parte 3"
+        }
+    ]
+}
