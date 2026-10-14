@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "funcoes.h"
 
-
 void informarElementosPopularConjuntos(int conjuntoA[], int *qtdA, int conjuntoB[], int *qtdB) {
     int n, x, repetido;
 
