@@ -10,23 +10,27 @@ O objetivo do projeto é compreender como as operações e propriedades dos conj
 
 ```text
 atividade-conjuntos/
+├── .vscode/
 ├── Parte 01/
 │   ├── main.c
 │   ├── funcoes.c
-│   └── funcoes.h
+│   ├── funcoes.h
+│   └── programa          # Executável gerado na compilação
 ├── Parte 02/
-│   └── src/
-│       ├── TesteClassificador.java
-│       ├── TesteDivisores.java
-│       ├── TestePrimos.java
-│       └── funcoes/
-│           ├── Classificador.java
-│           ├── Divisores.java
-│           └── Primos.java
+│   ├── src/
+│   │   ├── TesteClassificador.java
+│   │   ├── TesteDivisores.java
+│   │   ├── TestePrimos.java
+│   │   └── funcoes/
+│   │       ├── Classificador.java
+│   │       ├── Divisores.java
+│   │       └── Primos.java
+│   └── out/              # Classes compiladas
 ├── Parte 03/
 │   ├── Main.java
 │   ├── SistemaRecomendacao.java
-│   └── Usuario.java
+│   ├── Usuario.java
+│   └── out/              # Classes compiladas
 └── README.md
 ```
 
